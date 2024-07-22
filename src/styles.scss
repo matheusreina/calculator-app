@@ -29,7 +29,12 @@ section {
 
 body {
   line-height: 1;
-  background-color: black;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(212, 168, 255, 1) 100%
+  );
 }
 
 ol,
